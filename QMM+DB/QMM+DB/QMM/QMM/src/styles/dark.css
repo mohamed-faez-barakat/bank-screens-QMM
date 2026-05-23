@@ -1,0 +1,362 @@
+/*login scene*/
+#login-root {
+    -fx-background-color: linear-gradient(to bottom, #121212, #1e1e1e); 
+}
+
+#login-top {
+    -fx-background-color: #0b2545; /* Keep brand navy */
+    -fx-padding: 20;
+    -fx-hgap: 40px;
+}
+
+#qmm-label {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 37px;
+    -fx-text-fill: #d4af37; /* Keep gold */
+}
+
+#welcome-label {
+    -fx-text-fill: #f4e6c1; /* Light cream */
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.icon-button {
+    -fx-cursor: hand;
+    -fx-opacity: 0.8;
+    -fx-text-fill: #d4af37; /* Gold */
+}
+.icon-button:hover {
+    -fx-opacity: 1;
+}
+
+#login-center {
+    -fx-padding: 30;
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+    -fx-alignment: center;
+}
+
+.login-center-Label {
+    -fx-font-size: 23px;
+    -fx-font-family: "Georgia";
+    -fx-text-fill: #aac8ff; /* Light blue (replaced dark navy) */
+}
+
+#login-center-field {
+    -fx-font-size: 16px;
+    -fx-pref-height: 35px;
+    -fx-pref-width: 220px;
+    -fx-font-family: "Georgia";
+    -fx-background-radius: 6;
+    -fx-background-color: #2d2d2d; /* Dark input field */
+    -fx-text-fill: #e0e0e0; /* Light text */
+    -fx-border-color: #d4af37; /* Gold border */
+}
+
+.country-cmb {
+    -fx-pref-width: 180;
+    -fx-font-size: 16px;
+    -fx-background-color: #2d2d2d; /* Dark background */
+    -fx-text-fill: #e0e0e0; /* Light text */
+    -fx-border-color: #d4af37; /* Gold border */
+    -fx-border-radius: 4;
+}
+
+.login-center-icon {
+    -fx-fit-width: 25px;
+    -fx-fit-height: 25px;
+    -fx-opacity: 0.8;
+}
+
+.login-center-button {
+    -fx-background-color: #d4af37; /* Gold */
+    -fx-text-fill: #0b2545; /* Navy text */
+    -fx-font-size: 17px;
+    -fx-padding: 8 20;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.login-center-button:hover {
+    -fx-background-color: #b08b25; /* Darker gold */
+}
+
+/* Sign Up Scene */
+#signup-root {
+    -fx-background-color: linear-gradient(to bottom, #121212, #1e1e1e);
+}
+
+#signup-top {
+    -fx-background-color: #0b2545; /* Navy */
+    -fx-padding: 20;
+    -fx-hgap: 40px;
+}
+
+#signup-center {
+    -fx-padding: 30;
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+    -fx-alignment: center;
+}
+
+.signup-icon {
+    -fx-fit-width: 25px;
+    -fx-fit-height: 25px;
+}
+
+.signup-field {
+    -fx-font-size: 16px;
+    -fx-pref-height: 35px;
+    -fx-pref-width: 240px;
+    -fx-font-family: "Georgia";
+    -fx-background-radius: 6;
+    -fx-background-color: #2d2d2d; /* Dark field */
+    -fx-text-fill: #e0e0e0; /* Light text */
+    -fx-border-color: #d4af37; /* Gold border */
+}
+
+.signup-button {
+    -fx-background-color: #d4af37; /* Gold */
+    -fx-text-fill: #0b2545; /* Navy text */
+    -fx-font-size: 17px;
+    -fx-padding: 8 20;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.signup-button:hover {
+    -fx-background-color: #b08b25; /* Darker gold */
+}
+
+.signup-error {
+    -fx-text-fill: #ff6b6b; /* Soft red */
+    -fx-font-size: 13px;
+    -fx-font-style: italic;
+}
+
+.signup-country-cmb {
+    -fx-pref-width: 240px;
+    -fx-font-size: 16px;
+    -fx-background-color: #2d2d2d; /* Dark field */
+    -fx-text-fill: #e0e0e0; /* Light text */
+    -fx-border-color: #d4af37; /* Gold border */
+    -fx-border-radius: 4;
+}
+
+#signup-title {
+    -fx-font-size: 30px;
+    -fx-text-fill: #aac8ff; /* Light blue */
+    -fx-font-weight: bold;
+    -fx-font-family: "Georgia";
+}
+
+/* Welcome Scene */
+#welcome-root {
+    -fx-background-color: linear-gradient(to bottom, #121212, #1e1e1e);
+}
+
+#welcome-top {
+    -fx-background-color: #0b2545; /* Navy */
+    -fx-padding: 20;
+    -fx-hgap: 40px;
+}
+
+#welcome-main-text {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 26px;
+    -fx-text-fill: #aac8ff; /* Light blue */
+    -fx-font-weight: bold;
+}
+
+.welcome-center {
+    -fx-alignment: center;
+    -fx-spacing: 25;
+    -fx-padding: 40;
+}
+
+/* User Dashboard */
+#Userdashboard-root {
+    -fx-background-color: linear-gradient(to bottom, #121212, #1e1e1e);
+}
+
+#userdashboard-top {
+    -fx-background-color: #0b2545; /* Navy */
+}
+
+.logout-icon, .feedback-icon {
+    -fx-cursor: hand;
+    -fx-opacity: 1;
+    -fx-padding: 0 25 0 25;
+}
+.logout-icon:hover, .feedback-icon:hover {
+    -fx-opacity: 0.8;
+}
+
+#dashboard-listview {
+    -fx-background-color: #2d2d2d; /* Dark background */
+    -fx-border-color: #d4af37; /* Gold border */
+    -fx-border-width: 1px;
+    -fx-padding: 10;
+    -fx-font-family: "Georgia";
+    -fx-font-size: 25px;
+}
+
+.userdash-welcome-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #aac8ff; /* Light blue */
+}
+
+.userdashboard-card {
+    -fx-alignment: center;
+    -fx-background-color: #2d2d2d; /* Dark card */
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-min-width: 200px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0, 4);
+}
+
+.dashboard-card-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #d4af37; /* Gold */
+}
+
+.userdashboard-card-value {
+    -fx-font-size: 16px;
+    -fx-text-fill: #e0e0e0; /* Light text */
+}
+
+.hbox-cards {
+    -fx-spacing: 20;
+    -fx-alignment: center;
+    -fx-padding: 10;
+}
+
+.userdash-redeem-button {
+    -fx-background-color: #d4af37; /* Gold */
+    -fx-text-fill: #0b2545; /* Navy text */
+    -fx-font-size: 13px;
+    -fx-padding: 8 20;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.userdash-redeem-button:hover {
+    -fx-background-color: #b08b25; /* Darker gold */
+}
+
+.list-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #d4af37; /* Gold border */
+    -fx-border-width: 1px;
+}
+
+.list-cell {
+    -fx-font-size: 14px;
+    -fx-padding: 12px;
+    -fx-text-fill: #e0e0e0; /* Light text */
+    -fx-background-color: transparent;
+}
+
+.list-cell:hover {
+    -fx-background-color: #3d3d3d; /* Dark hover */
+}
+
+.list-cell:selected {
+    -fx-background-color: #d4af37; /* Gold */
+    -fx-text-fill: #0b2545; /* Navy text */
+}
+
+/* Deposit Scene */
+#trans_root{
+    -fx-background-color: linear-gradient(to bottom, #121212, #1e1e1e);
+}
+.deposit-value, .deposit-label {
+    -fx-font-size: 29px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #aac8ff; /* Light blue */
+}
+
+.deposit-field {
+    -fx-font-size: 16px;
+    -fx-pref-height: 35px;
+    -fx-pref-width: 210px;
+    -fx-font-family: "Georgia";
+    -fx-background-radius: 6;
+    -fx-background-color: #2d2d2d; /* Dark field */
+    -fx-text-fill: #e0e0e0; /* Light text */
+    -fx-border-color: #d4af37; /* Gold border */
+}
+
+.deposit-button {
+    -fx-background-color: #d4af37; /* Gold */
+    -fx-text-fill: #0b2545; /* Navy text */
+    -fx-font-size: 17px;
+    -fx-padding: 8 20;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.deposit-button:hover {
+    -fx-background-color: #b08b25; /* Darker gold */
+}
+
+/* Details Scene */
+#details-root {
+    -fx-background-color: linear-gradient(to bottom right, #121212, #1e1e1e);
+}
+
+#details-card {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #2d2d2d; /* Dark card */
+    -fx-background-radius: 15;
+    -fx-padding: 30;
+    -fx-spacing: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.2, 0, 4);
+    -fx-max-width: 500;
+    -fx-alignment: top-left;
+}
+
+.details-label {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0e0e0; /* Light text */
+    -fx-padding: 4 0 4 8;
+}
+
+#label-id       { -fx-text-fill: #64b5f6; } /* Light blue */
+#label-balance  { -fx-text-fill: #81c784; } /* Light green */
+#label-pass     { -fx-text-fill: #a0a0a0; } /* Gray */
+
+/* Toggle Button */
+.toggle-button {
+    -fx-background-color: #0b2545; /* Navy */
+    -fx-text-fill: #f4e6c1; /* Cream */
+    -fx-border-width: 2px;
+    -fx-border-radius: 6;
+    -fx-font-family: "Georgia";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.toggle-button:hover {
+    -fx-background-color: #b08b25; /* Darker gold */
+}
+
+.toggle-button:selected {
+    -fx-background-color: #d4af37; /* Gold */
+    -fx-text-fill: #0b2545; /* Navy text */
+    -fx-border-color: #d4af37; /* Gold border */
+}
