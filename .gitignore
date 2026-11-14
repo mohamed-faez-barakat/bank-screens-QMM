@@ -1,0 +1,22 @@
+# NetBeans private machine-specific settings
+**/nbproject/private/
+
+# Build outputs
+**/build/
+**/dist/
+*.class
+*.jar
+
+# Local database credentials and environment files
+.env
+.env.*
+!.env.example
+*.log
+
+# OS/editor files and archives
+.DS_Store
+Thumbs.db
+*.lnk
+.vscode/
+.idea/
+*.zip
